@@ -24,3 +24,15 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-background-color: #f3f5fa;
 $input-shadow: none;
+
+// GLOBAL STYLES 
+
+html, body  { 
+    height: 100%;
+
+    //set default font size to 18px 
+
+    font-size: 18px !important;
+
+    overflow: hidden !important;
+}
