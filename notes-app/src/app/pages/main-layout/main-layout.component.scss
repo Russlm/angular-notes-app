@@ -18,6 +18,8 @@
     height: 68px;
     background: linear-gradient(to right, $pink, $blue);
 
+    box-shadow: 0px 0px 10px 0px rgb(black, 0.15);
+
     display: flex;
     flex-shrink:0; //prevents the main box from shrinking 
 
@@ -26,6 +28,7 @@
     justify-content: center;
     align-items: center;
 }
+
 h1 {
      color: white;
      font-size: 24px;
